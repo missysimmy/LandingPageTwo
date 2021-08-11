@@ -1,8 +1,47 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body {
-	background-color: #fdd0cb;
 	height: 100vh;
+}
+.navbar {
+	height: 100px;
+	background-color: #ffffff;
+}
+.navbar-brand {
+	transform: translateX(-50%);
+	left: 50%;
+  position: absolute;
+	width: 100vw;
+	text-align: center;
+}
+/* Main Content Styling */
+h1 {
+	color: #ffffff;
+}
+#exampleFormControlInput1 {
+	width: 370px;
+}
+button {
+	color: #ffffff;
+	width: 370px;
+}
+.content-a {
+	margin-top: 8rem;
+	margin-left: 5rem;
+}
+.content-b {
+	margin-left: 10rem;
+}
+img {
+	width: 800px;
+	overflow: hidden;
+}
+/* FOOTER SECTION */
+footer {
+	background-color: #ffffff;
+	margin-left: 5rem;
+	padding-top: 2rem;
 }
