@@ -5,6 +5,10 @@
 }
 body {
 	height: 100vh;
+	font-family: 'STIX Two Text', serif;
+}
+#main-content {
+	background-color: #fdd0cb;
 }
 .navbar {
 	height: 100px;
@@ -22,26 +26,104 @@ h1 {
 	color: #ffffff;
 }
 #exampleFormControlInput1 {
-	width: 370px;
+	width: 500px;
 }
 button {
 	color: #ffffff;
-	width: 370px;
+	width: 500px;
+	height: 55px;
+}
+.coupon {
+	font-size: 1.5rem;
 }
 .content-a {
 	margin-top: 8rem;
-	margin-left: 5rem;
-}
-.content-b {
 	margin-left: 10rem;
 }
+.fw-bolder {
+	font-size: 4rem;
+}
+.subscribe {
+	font-size: 2rem;;
+}
+.content-b {
+	margin-left: 8rem;
+}
 img {
-	width: 800px;
-	overflow: hidden;
+	width: 45rem;
 }
 /* FOOTER SECTION */
 footer {
-	background-color: #ffffff;
-	margin-left: 5rem;
 	padding-top: 2rem;
+	margin-left: 2rem;
+}
+.address {
+	font-weight: bold;
+}
+.details {
+	color: #808080;
+}
+/* MEDIA QUERIES */
+@media (max-width: 576px) {
+	h1 {
+		font-size: 2.2rem!important;
+		margin-top: -4rem!important;
+		margin-left: -20rem!important;
+	}
+	.content-a {
+		margin-left: 9rem!important;
+	}
+	.content-b {
+		margin-left: 6rem!important;
+	}
+	.subscribe {
+		font-size: 1rem;
+		margin-left: -8rem!important;
+	}
+	button {
+		margin-left: -8rem!important;
+		width: 300px;
+	}
+	#exampleFormControlInput1 {
+		margin-left: -8rem!important;
+		width: 300px;
+	}
+	footer {
+		padding: 20px;
+	}
+}
+@media (max-width: 768px) {
+	h1 {
+		margin-left: -6rem!important;
+		margin-top: -4rem!important;
+	}
+	.subscribe {
+		margin-left: -6rem!important;
+	}
+	#exampleFormControlInput1 {
+		margin-left: -6rem!important;
+	}
+	button {
+		margin-left: -6rem!important;
+	}
+	img {
+		width: 30rem;
+		margin-left: -2rem!important;
+	}
+}
+@media (max-width: 992px) {
+	h1 {
+		margin-top: -4rem!important;
+		margin-left: -7rem!important;
+		width: 30rem;
+	}
+	.subscribe {
+		margin-left: -7rem!important;
+		width: 25rem;
+	}
+	img {
+		width: 25rem;
+		margin-top: 4rem!important;	
+		margin-left: -6rem!important;
+	}
 }
